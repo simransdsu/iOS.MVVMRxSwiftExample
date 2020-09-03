@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		494428362500DF1900BC8D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494428342500DF1900BC8D91 /* Main.storyboard */; };
 		494428382500DF1A00BC8D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494428372500DF1A00BC8D91 /* Assets.xcassets */; };
 		4944283B2500DF1A00BC8D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494428392500DF1A00BC8D91 /* LaunchScreen.storyboard */; };
+		4992BBB92500DFBB00E85BAB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992BBB82500DFBB00E85BAB /* AppCoordinator.swift */; };
 		A031675855BAB72C2618D8AB /* Pods_MVVMRxSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556C374544A824C61E05BA6 /* Pods_MVVMRxSwiftExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		494428372500DF1A00BC8D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4944283A2500DF1A00BC8D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4944283C2500DF1A00BC8D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4992BBB82500DFBB00E85BAB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		8556C374544A824C61E05BA6 /* Pods_MVVMRxSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE269A18EF2D3C8559F8D3B /* Pods-MVVMRxSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwiftExample/Pods-MVVMRxSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				1F969DC8D880FDB717EEE788 /* Pods-MVVMRxSwiftExample.debug.xcconfig */,
 				FBE269A18EF2D3C8559F8D3B /* Pods-MVVMRxSwiftExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,6 +76,7 @@
 			children = (
 				4944282E2500DF1900BC8D91 /* AppDelegate.swift */,
 				494428302500DF1900BC8D91 /* SceneDelegate.swift */,
+				4992BBB82500DFBB00E85BAB /* AppCoordinator.swift */,
 				494428322500DF1900BC8D91 /* ViewController.swift */,
 				494428342500DF1900BC8D91 /* Main.storyboard */,
 				494428372500DF1A00BC8D91 /* Assets.xcassets */,
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4992BBB92500DFBB00E85BAB /* AppCoordinator.swift in Sources */,
 				494428332500DF1900BC8D91 /* ViewController.swift in Sources */,
 				4944282F2500DF1900BC8D91 /* AppDelegate.swift in Sources */,
 				494428312500DF1900BC8D91 /* SceneDelegate.swift in Sources */,
