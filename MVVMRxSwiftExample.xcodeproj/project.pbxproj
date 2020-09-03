@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4908B3A925018A2700BD7979 /* RestaurantsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908B3A825018A2700BD7979 /* RestaurantsListViewModel.swift */; };
+		4908B3AB25018B3800BD7979 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908B3AA25018B3800BD7979 /* RestaurantViewModel.swift */; };
 		4944282F2500DF1900BC8D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944282E2500DF1900BC8D91 /* AppDelegate.swift */; };
 		494428312500DF1900BC8D91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494428302500DF1900BC8D91 /* SceneDelegate.swift */; };
 		494428332500DF1900BC8D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494428322500DF1900BC8D91 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		1F969DC8D880FDB717EEE788 /* Pods-MVVMRxSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwiftExample/Pods-MVVMRxSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4908B3A825018A2700BD7979 /* RestaurantsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListViewModel.swift; sourceTree = "<group>"; };
+		4908B3AA25018B3800BD7979 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 		4944282B2500DF1900BC8D91 /* MVVMRxSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMRxSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4944282E2500DF1900BC8D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494428302500DF1900BC8D91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				4992BBBA2500E1D200E85BAB /* restaurant.json */,
 				4992BBBD2500E21000E85BAB /* Restaurant.swift */,
 				4992BBBF2500E28900E85BAB /* RestaurantService.swift */,
+				4908B3A825018A2700BD7979 /* RestaurantsListViewModel.swift */,
+				4908B3AA25018B3800BD7979 /* RestaurantViewModel.swift */,
 			);
 			path = MVVMRxSwiftExample;
 			sourceTree = "<group>";
@@ -220,10 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4992BBBE2500E21000E85BAB /* Restaurant.swift in Sources */,
+				4908B3AB25018B3800BD7979 /* RestaurantViewModel.swift in Sources */,
 				4992BBB92500DFBB00E85BAB /* AppCoordinator.swift in Sources */,
 				494428332500DF1900BC8D91 /* ViewController.swift in Sources */,
 				4944282F2500DF1900BC8D91 /* AppDelegate.swift in Sources */,
 				4992BBC02500E28900E85BAB /* RestaurantService.swift in Sources */,
+				4908B3A925018A2700BD7979 /* RestaurantsListViewModel.swift in Sources */,
 				494428312500DF1900BC8D91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
